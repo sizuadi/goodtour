@@ -1,0 +1,384 @@
+body {
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1E55A9;
+}
+
+// Navbar
+.navbar-brand {
+    img {
+        max-height: 40px;       
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #1E55A9;
+
+            &.active {
+                color: #1E55A9 !important;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin: -10px -18px -10px 50px !important;
+    height: 66px;
+    width: 100px;
+    border-radius: 0px;
+}
+
+.btn-login {
+    background-color: #1E55A9;
+    color: #ffffff;
+    transition: .5s;
+
+    &:hover {
+        background-color: rgb(69, 135, 233);
+        color: #ffffff;
+    }
+}
+
+// Header
+
+header {
+    background-image: url(../images/header_img.jpg);
+    background-size: cover;
+    padding: 150px 0px 140px;
+    margin-top: -66px;
+
+    h1,
+    p {
+        color: #ffffff;
+    }
+
+    h1 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: bold;
+        font-size: 60px;
+    }
+
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: lighter;
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: #FFB500;
+        color: #ffffff;
+        font-size: 22px;
+        padding: 6px 23px;
+        margin-top: 20px;
+        transition: .5s;
+
+        &:hover {
+            background-color: rgb(255, 207, 84);
+
+        }
+    }
+
+}
+
+// Statictics
+
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        background-color: #fff;
+        padding-top: 18px;
+        padding-left: 55px;
+
+    }
+
+    h2 {
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    p {
+        font-weight: lighter;
+        font-size: 22px;
+    }
+}
+
+// Popular Tours
+.section-popular {
+    background-color: #1E55A9;
+    min-height: 540px;
+    margin-top: -53px;
+    margin-bottom: -207px;
+
+    .section-popular-header {
+        margin-top: 150px;
+
+        h2,
+        p {
+            color: #ffffff;
+        }
+
+        h2 {
+            font-family: 'Ibarra Real Nova', serif;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: lighter;
+        }
+    }
+}
+
+// Popular Tours Content
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #ddd;
+            padding: 30px 0px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-country {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: lighter;
+        }
+
+        .travel-location {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        .btn-travel-details {
+            background-color: #FFB500;
+            color: #fff;
+
+            &:hover {
+                background-color: rgb(251, 210, 104);
+                color: #fff;
+            }
+        }
+    }
+}
+
+// Partners
+.section-networks {
+    margin-top: -200px;
+    padding-top: 270px;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+// Testimonials
+
+.section-testimonials-header {
+    background: linear-gradient(#ffffff 0%, #F7F9FF 100%);
+    min-height: 533px;
+    padding-top: 50px;
+
+    h1 {
+        font-family: "Ibarra Real Nova", serif;
+        font-weight: bold;
+        font-size: 40px;
+
+
+    }
+
+    p {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 18px;
+    }
+}
+
+.section-testimonials-content {
+    margin-top: -300px;
+    padding-bottom: 30px;
+
+    .card-testimonials {
+        padding: 50px 38px 30px;
+        margin-bottom: 20px;
+
+
+        .testimonials-content {
+
+            min-height: 300px;
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 18px !important;
+
+        }
+
+        .testimonial {
+            font-weight: 300;
+            font-size: 22px !important;
+            min-height: 110px;
+
+        }
+
+        .trip-to {
+
+            font-weight: 300;
+            font-size: 22px;
+            color: #7d8591;
+
+        }
+
+    }
+
+    .btn-get-started {
+        background-color: #FFB500;
+        color: #ffffff;
+
+        &:hover {
+            background-color: rgb(255, 207, 84);
+
+        }
+    }
+
+    .btn-need-help {
+        border: 1px solid #1E55A9;
+        color: #1E55A9;
+
+        &:hover {
+            background-color: #1E55A9;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+    }
+}
+
+.section-footer {
+    h5 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 22px;
+        font-weight: lighter;
+    }
+}
+
+// Details
+
+.section-details-header {
+    min-height: 310px;
+    background-color: #F7F9FF;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item {
+        &.active {
+            color: #1E55A9;
+            font-weight: bold;
+        }
+    }
+
+    .card-details {
+        padding: 30px;
+        border-radius: 5px;
+
+        h1 {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 0px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: lighter;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .info {
+            font-size: 16px;
+            font-weight: lighter;
+        }
+    }
+
+    .features {
+        margin-top: 30px;
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 0px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: lighter;
+        }
+
+        .description {
+            float: left;
+            margin-left: 10px;
+            overflow: hidden;
+        }
+
+        .features-img {
+            float: left;
+            width: 45px;
+            height: 45px;
+        }
+    }
+
+    .gallery {
+        .xzoom-container {
+            display: block;
+
+            .xzoom {
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 15px;
+
+            }
+
+            .xactive {
+                border: 10px solid #1ABC9C;
+                box-shadow: none;
+            }
+
+
+        }
+    }
+}

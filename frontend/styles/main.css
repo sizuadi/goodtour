@@ -1,0 +1,346 @@
+body {
+  background-color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #1E55A9;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1E55A9;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #1E55A9 !important;
+  font-weight: 600;
+}
+
+.btn-navbar-right {
+  margin: -10px -18px -10px 50px !important;
+  height: 66px;
+  width: 100px;
+  border-radius: 0px;
+}
+
+.btn-login {
+  background-color: #1E55A9;
+  color: #ffffff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.btn-login:hover {
+  background-color: #4587e9;
+  color: #ffffff;
+}
+
+header {
+  background-image: url(../images/header_img.jpg);
+  background-size: cover;
+  padding: 150px 0px 140px;
+  margin-top: -66px;
+}
+
+header h1,
+header p {
+  color: #ffffff;
+}
+
+header h1 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+header p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #FFB500;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 6px 23px;
+  margin-top: 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header .btn-get-started:hover {
+  background-color: #ffcf54;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  background-color: #fff;
+  padding-top: 18px;
+  padding-left: 55px;
+}
+
+.section-stats h2 {
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+.section-stats p {
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.section-popular {
+  background-color: #1E55A9;
+  min-height: 540px;
+  margin-top: -53px;
+  margin-bottom: -207px;
+}
+
+.section-popular .section-popular-header {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-header h2,
+.section-popular .section-popular-header p {
+  color: #ffffff;
+}
+
+.section-popular .section-popular-header h2 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-popular .section-popular-header p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #ddd;
+  padding: 30px 0px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.section-popular-content .section-popular-travel .btn-travel-details {
+  background-color: #FFB500;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .btn-travel-details:hover {
+  background-color: #fbd268;
+  color: #fff;
+}
+
+.section-networks {
+  margin-top: -200px;
+  padding-top: 270px;
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-networks p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonials-header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#F7F9FF));
+  background: linear-gradient(#ffffff 0%, #F7F9FF 100%);
+  min-height: 533px;
+  padding-top: 50px;
+}
+
+.section-testimonials-header h1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-testimonials-header p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+.section-testimonials-content {
+  margin-top: -300px;
+  padding-bottom: 30px;
+}
+
+.section-testimonials-content .card-testimonials {
+  padding: 50px 38px 30px;
+  margin-bottom: 20px;
+}
+
+.section-testimonials-content .card-testimonials .testimonials-content {
+  min-height: 300px;
+}
+
+.section-testimonials-content .card-testimonials h3 {
+  font-weight: 600;
+  font-size: 18px !important;
+}
+
+.section-testimonials-content .card-testimonials .testimonial {
+  font-weight: 300;
+  font-size: 22px !important;
+  min-height: 110px;
+}
+
+.section-testimonials-content .card-testimonials .trip-to {
+  font-weight: 300;
+  font-size: 22px;
+  color: #7d8591;
+}
+
+.section-testimonials-content .btn-get-started {
+  background-color: #FFB500;
+  color: #ffffff;
+}
+
+.section-testimonials-content .btn-get-started:hover {
+  background-color: #ffcf54;
+}
+
+.section-testimonials-content .btn-need-help {
+  border: 1px solid #1E55A9;
+  color: #1E55A9;
+}
+
+.section-testimonials-content .btn-need-help:hover {
+  background-color: #1E55A9;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.section-footer h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.section-footer p {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background-color: #F7F9FF;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  color: #1E55A9;
+  font-weight: bold;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.section-details-content .card-details p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section-details-content .card-details .info {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.section-details-content .features {
+  margin-top: 30px;
+}
+
+.section-details-content .features h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.section-details-content .features p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.section-details-content .features .description {
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.section-details-content .features .features-img {
+  float: left;
+  width: 45px;
+  height: 45px;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 15px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 10px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=main.css.map */
